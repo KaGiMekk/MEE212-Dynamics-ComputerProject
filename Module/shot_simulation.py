@@ -16,4 +16,4 @@ def shot_simulation(T_range, equations_of_motion, t_span, y0, m):
         theta_shot.append(sol.y[2, -1])
         v_shot.append(final_velocity(R_final, R_dot_final, theta_dot_final))
 
-    return theta_shot, v_shot
+    return np.array(theta_shot), np.array(v_shot)

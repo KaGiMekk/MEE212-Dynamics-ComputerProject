@@ -10,7 +10,7 @@ R0 = 0.1  # initial radial position in meters
 theta0 = 0  # initial angle in radians
 theta_dot0 = 0  # initial angular velocity
 R_dot0 = 0  # initial radial velocity
-T_range = np.linspace(0, 3, 30) # Range of tension T from 0 to 3 Nm
+T_range = np.linspace(0, 3, 100) # Range of tension T from 0 to 3 Nm
 
 if __name__ == '__main__':
 
