@@ -100,11 +100,6 @@ def plot_all_in_one_figure(sol, T_range, theta_shot, v_shot):
     ax2.grid()
     
     # Polar Plot
-    # ax3 = fig.add_subplot(2, 3, 3, projection='polar')
-    # ax3.plot(theta_grid, R_grid)
-    # ax3.set_title('Polar Plot of R(theta)')
-    # ax3.grid(True)
-
     ax3 = fig.add_subplot(2, 3, 3, projection='polar')
     ax3.plot(theta_sol, R_sol)  # Use original data points
     ax3.set_title('Polar Plot R(theta)')
